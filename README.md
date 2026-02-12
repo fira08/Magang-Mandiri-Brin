@@ -56,7 +56,7 @@ Simulasi dijalankan pada klaster High Performance Computing (HPC) BRIN dengan ta
 ##  Dokumen Hasil Riset
 Berikut adalah luaran utama dari kegiatan magang ini:
 
-*  *[Laporan_Magang_BRIN_Shafira.pdf](Laporan_Magang_BRIN_Shafira.pdf)*
+*  *[Laporan_Magang_BRIN_Shafira.pdf](Laporan_MagangMandiri_TelU_BRIN_Shafira.pdf)*
     Dokumen teknis lengkap mencakup teori dasar DFT, detail parameter simulasi, data mentah, hingga analisis mendalam.
 *  *[Presentasi_Komputasi_2D_Nanosensor.pdf](Presentasi_Komputasi_2D_Nanosensor.pdf)*
     Salindia presentasi akhir yang memvisualisasikan grafik perbandingan DOS dan kesimpulan performa sensor.
