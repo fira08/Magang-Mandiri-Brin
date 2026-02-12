@@ -12,33 +12,29 @@
 
 ---
 
-##  Ringkasan Proyek
-Repositori ini mendokumentasikan riset komputasi mengenai potensi material dua dimensi *Molybdenum Disulfide ($MoS_2$)* sebagai sensor gas generasi baru. Melalui pendekatan First-Principles (DFT), proyek ini menganalisis interaksi atomik antara permukaan $MoS_2$ dengan berbagai molekul gas atmosfer dan polutan.
+## Ringkasan Proyek
 
-*Fokus Gas Target:*
+Repositori ini mendokumentasikan penelitian komputasi mengenai potensi material dua dimensi **Molybdenum Disulfide ($MoS_2$)** sebagai sensor gas generasi baru. Melalui pendekatan *First-Principles* (DFT), proyek ini menganalisis interaksi atomik antara permukaan $MoS_2$ dengan berbagai molekul gas atmosfer dan polutan.
+
+**Fokus Gas Target:**
 Simulasi mencakup enam molekul uji: $NO_2$, $NO$, $O_2$, $H_2O$, $H_2$, dan $CO$.
 
-###  Tujuan Riset
-Menjawab tantangan deteksi gas beracun dengan mengevaluasi *selektivitas* (kemampuan membedakan gas) dan *sensitivitas* (respon elektronik) dari $MoS_2$, khususnya terhadap gas berbahaya Nitrogen Dioksida ($NO_2$).
+## Tujuan Riset
 
----
+Menjawab tantangan deteksi gas beracun dengan meningkatkan **selektivitas** (kemampuan membedakan gas) dan **sensitivitas** (respons elektronik) dari $MoS_2$, khususnya terhadap gas berbahaya **Nitrogen Dioksida ($NO_2$)**.
 
-##  Metodologi & Alur Kerja
-Simulasi dijalankan pada klaster High Performance Computing (HPC) BRIN dengan tahapan sebagai berikut:
+## Metodologi & Alur Kerja
 
-1.  *Pemodelan Sistem ($Modeling$):*
-    Konstruksi supercell $4\times4$ monolayer $MoS_2$ (total 48 atom) dengan penambahan ruang vakum 20 Å untuk mengisolasi lapisan 2D.
-2.  *Optimasi Geometri ($Relaxation$):*
-    Pencarian konfigurasi adsorpsi paling stabil pada situs Hollow, Top-Mo, Top-S, dan Bridge.
-3.  *Analisis Energi ($Energetics$):*
-    Perhitungan Energi Adsorpsi ($E_{ads}$) untuk menentukan jenis interaksi (Fisisorpsi vs Kemisorpsi).
-4.  *Struktur Elektronik ($Electronic Properties$):*
-    Analisis perubahan Density of States (DOS) dan Band Structure untuk mendeteksi impurity states di celah pita energi.
+Simulasi dijalankan pada klaster *High Performance Computing* (HPC) BRIN dengan tahapan sebagai berikut:
 
----
+* **Pemodelan Sistem (*Modeling*):** Konstruksi *supercell* $4 \times 4$ lapisan tunggal $MoS_2$ (total 48 atom) dengan penambahan ruang vakum 20 Å untuk mengisolasi lapisan 2D.
+* **Optimasi Geometri (*Relaxation*):** Pencarian konfigurasi adsorpsi paling stabil pada situs *Hollow, Top-Mo, Top-S,* dan *Bridge*.
+* **Analisis Energi (*Energetics*):** Perhitungan Energi Adsorpsi ($E_{ads}$) untuk menentukan jenis interaksi (Fisisorpsi vs Kemisorpsi).
+* **Struktur Elektronik (*Electronic Properties*):** Analisis perubahan *Density of States* (DOS) dan *Band Structure* untuk mendeteksi keadaan pengotor (*impurity states*) di celah pita energi.
 
-##  Temuan Kunci (Key Findings)
-> Material $MoS_2$ terbukti memiliki *selektivitas tinggi terhadap $NO$, ditandai dengan energi adsorpsi yang signifikan dan munculnya *state elektronik baru di area band gap, berbeda dengan respon lemah terhadap gas lain seperti $CO$ atau $H_2$.
+## Temuan Kunci (*Key Findings*)
+
+Material $MoS_2$ terbukti memiliki **selektivitas tinggi terhadap $NO_2$ dan $NO$**, ditandai dengan energi adsorpsi yang signifikan dan munculnya *keadaan elektronik baru* di area celah pita. Hal ini berbeda dengan respons lemah terhadap gas lain seperti $CO$ atau $H_2$ yang hanya bersifat fisisorpsi.
 
 ---
 
